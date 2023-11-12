@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Masai Employee Records</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Masai Employee Records</h1>
+
+  <form id="employee-form">
+    <input type="text" id="name" placeholder="Enter employee name">
+    <input type="number" id="emp-id" placeholder="Enter employee ID">
+    <select id="department">
+      <option value="Frontend">Frontend</option>
+      <option value="Backend">Backend</option>
+      <option value="Ops">Ops</option>
+      <option value="HR">HR</option>
+      <option value="IA">IA</option>
+    </select>
+    <input type="number" id="experience" placeholder="Enter experience in years">
+    <input type="email" id="email" placeholder="Enter email address">
+    <input type="number" id="mobile" placeholder="Enter mobile number">
+    <input type="submit" value="Add Employee">
+  </form>
+
+  <table id="employee-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Employee ID</th>
+        <th>Department</th>
+        <th>Experience in years</th>
+        <th>Email address</th>
+        <th>Mobile Number</th>
+        <th>Role</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      </tbody>
+  </table>
+
+  <script src="record.js"></script>
+</body>
+</html>
